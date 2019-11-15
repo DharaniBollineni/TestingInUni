@@ -1,0 +1,6 @@
+Your Tax Details
+Deduction    4.0
+Income    22.0
+Tax Percentage    0.1
+TotalTax    2.2
+Deduction    4.0

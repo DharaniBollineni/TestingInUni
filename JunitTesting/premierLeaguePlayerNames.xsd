@@ -1,0 +1,31 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="row" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="club"/>
+              <xs:element type="xs:byte" name="age"/>
+              <xs:element type="xs:string" name="position"/>
+              <xs:element type="xs:byte" name="position_cat"/>
+              <xs:element type="xs:float" name="market_value"/>
+              <xs:element type="xs:short" name="page_views"/>
+              <xs:element type="xs:float" name="fpl_value"/>
+              <xs:element type="xs:string" name="fpl_sel"/>
+              <xs:element type="xs:short" name="fpl_points"/>
+              <xs:element type="xs:string" name="region"/>
+              <xs:element type="xs:string" name="nationality"/>
+              <xs:element type="xs:byte" name="new_foreign"/>
+              <xs:element type="xs:byte" name="age_cat"/>
+              <xs:element type="xs:byte" name="club_id"/>
+              <xs:element type="xs:byte" name="big_club"/>
+              <xs:element type="xs:byte" name="new_signing"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
